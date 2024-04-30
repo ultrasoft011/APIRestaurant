@@ -1,0 +1,19 @@
+{
+  "name": "api-restaurant",
+  "version": "1.0.0",
+  "description": "API restaurant",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Ballesteros",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
+}

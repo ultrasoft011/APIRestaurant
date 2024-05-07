@@ -1,0 +1,11 @@
+/* Estilos para centrar el contenido */
+.home {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* Cambia la fuente para todo el componente Home */
+}
+
+/* Estilos para cambiar la fuente */
+.home h1 {
+  margin-top: 60px;
+}

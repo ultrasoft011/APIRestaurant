@@ -17,8 +17,16 @@ describe("GET /api/dishes", () => {
 
   it("debería devolver un array con los platos existentes", async () => {
     // Crea algunos platos de muestra
-    const dish1 = new Dish({ name: "Dish 1", description: "Description 1" });
-    const dish2 = new Dish({ name: "Dish 2", description: "Description 2" });
+    const dish1 = new Dish({
+      name: "Dish 1",
+      description: "Description 1",
+      price: 10.99,
+    });
+    const dish2 = new Dish({
+      name: "Dish 2",
+      description: "Description 2",
+      price: 15.99,
+    });
     await dish1.save();
     await dish2.save();
 
